@@ -1,0 +1,3 @@
+error : un error ocurrio 2025-06-28 20:11:00
+log : El usuario ha hecho lo siguiente 2025-06-28 20:11:00
+warning : auxilio algo paso 2025-06-28 20:11:00
