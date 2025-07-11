@@ -9,6 +9,7 @@ use App\business\Get;
 use App\business\Update;
 use App\business\Delete;
 use App\data\Repository;
+use App\Session\Session;
 use App\validators\Validator;
 use App\exceptions\ValidationException;
 use App\exceptions\DataException;
@@ -18,7 +19,7 @@ use App\database\RepositoryDB;
 $validator = new Validator();
 
 try {
-    $repository = new RepositoryDB();
+    $repository = new Repository();
     switch ($_SERVER['REQUEST_METHOD']) {
         case 'GET':
             $get = new Get($repository);

@@ -1,0 +1,21 @@
+{
+    "name": "jose/test",
+    "description": "test de composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jose\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "José Balbuena",
+            "email": "45837292+JoseBalbuena181096@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nesbot/carbon": "^3.0@dev",
+        "phpoffice/phpspreadsheet": "dev-master"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "jose/exel",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Jose\\Exel\\": "src/",
+      "app\\interfaces\\": "interfaces/",
+      "app\\data\\": "data/",
+      "app\\business\\": "business/",
+      "app\\excel\\": "excel/"
+    },
+    "files": [
+      "config/database.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "José Balbuena",
+      "email": "45837292+JoseBalbuena181096@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "^4.4"
+  }
+}
